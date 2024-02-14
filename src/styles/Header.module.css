@@ -1,0 +1,18 @@
+.header {
+  height: 11vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fredoka";
+  background-color: white;
+}
+
+h2 {
+  background: linear-gradient(to right, #106dca, #1e7ede, #2a8cef, #87bef5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  margin-top: 20px;
+}

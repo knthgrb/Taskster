@@ -1,0 +1,49 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 70%;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px 10px;
+  border: 0.5px solid #87bef5;
+  font-size: 15px;
+  color: #3b97d9;
+}
+
+input[type="input"]::placeholder {
+  color: #3b97d9;
+  font-family: "Inter", system-ui;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  /* box-shadow: 0 0 10px 1000px rgba(90, 89, 89, 0.9); */
+}
+
+button {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  margin-right: 7px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  box-shadow: -1.5px 1.5px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, #106dca, #1e7ede, #2a8cef, #87bef5);
+}
+
+button:hover {
+  transform: scale(1.15);
+}
