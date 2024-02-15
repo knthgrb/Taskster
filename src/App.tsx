@@ -53,7 +53,7 @@ const App: React.FC = () => {
     }
 
     setCompletedTodos(complete);
-    console.log(completedTodos);
+    // console.log(completedTodos);
     setTodos(active);
   };
 
