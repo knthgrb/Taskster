@@ -30,7 +30,7 @@ const TodoCard: React.FC<Props> = ({ index, todo, todos, setTodos }) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
 
-  //HANDLE DELETE TODO
+  //HANDLE EDIT TODO
   const handleEdit = (e: React.FormEvent, id: number) => {
     e.preventDefault();
 
