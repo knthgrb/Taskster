@@ -4,7 +4,7 @@ import style from "../styles/Header.module.css";
 const Header: React.FC = () => {
   return (
     <div className={style.header}>
-      <h2>taskify</h2>
+      <h2>taskster</h2>
     </div>
   );
 };
